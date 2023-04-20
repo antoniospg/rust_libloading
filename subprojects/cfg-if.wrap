@@ -1,0 +1,4 @@
+[wrap-git]
+url = https://github.com/antoniospg/cfg-if
+revision = meson/1.0
+depth = 1
