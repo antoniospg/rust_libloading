@@ -20,3 +20,7 @@ lib = static_library(
   link_with : [cfg_if],
   rust_crate_type : 'rlib'
 )
+
+dep_libloading = declare_dependency(
+  link_with : [lib, cfg_if],
+)
