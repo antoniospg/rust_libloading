@@ -12,7 +12,7 @@ use self::unix_imports::*;
 use std::ffi::{CStr, OsStr};
 use std::os::raw;
 use std::{fmt, marker, mem, ptr};
-use util::{cstr_cow_from_bytes, ensure_compatible_types};
+use crate::util::{cstr_cow_from_bytes, ensure_compatible_types};
 
 mod consts;
 
